@@ -1,0 +1,9 @@
+{
+  "name": "operations-under-pressure",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Team-scoped operational work tracking with safe workflow transitions and audit history.",
+  "scripts": {"start":"node src/server.js", "worker":"node src/worker.js", "test":"node --test", "seed":"node db/seed.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {"pg":"^8.13.1"}
+}
